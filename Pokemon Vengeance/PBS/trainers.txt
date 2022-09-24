@@ -1,0 +1,2158 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+#-------------------------------
+# DEFAULT ESSENTIALS
+#-------------------------------
+#-------------------------------
+[CAMPER,Liam]
+LoseText = "A very good battle, indeed!"
+Pokemon = DIGLETT,10
+Pokemon = BONSLY,11
+#-------------------------------
+[LEADER_Brock,Brock]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = "Very good."
+Pokemon = GEODUDE,12
+    Gender = male
+    Moves = DEFENSECURL,HEADSMASH,ROCKPOLISH,ROCKTHROW
+    AbilityIndex = 0
+    IV = 20,20,20,20,20,20
+Pokemon = ONIX,14
+    Name = Rocky
+    Gender = male
+    Shiny = yes
+    Moves = HEADSMASH,ROCKTHROW,RAGE,ROCKTOMB
+    AbilityIndex = 0
+    Item = SITRUSBERRY
+    IV = 20,20,20,20,20,20
+    Ball = HEAVYBALL
+#-------------------------------
+[TEAMROCKET_M,Grunt,1]
+LoseText = "You're too good for me!"
+Pokemon = WEEPINBELL,21
+    Shadow = yes
+#-------------------------------
+[TEAMROCKET_F,Grunt,1]
+LoseText = "You're too good for me!"
+Pokemon = BURMY,19
+Pokemon = WINGULL,19
+Pokemon = ELECTABUZZ,20
+    Shadow = yes
+#-------------------------------
+[YOUNGSTER,Ben]
+LoseText = "Aww, I lost."
+Pokemon = RATICATE,100
+Pokemon = ARBOK,100
+Pokemon = AZUMARILL,100
+Pokemon = AMPHAROS,100
+Pokemon = TROPIUS,100
+Pokemon = CHARIZARD,100
+#-------------------------------
+[CAMPER,Jeff]
+LoseText = "A very good battle, indeed!"
+Pokemon = SPEAROW,16
+Pokemon = SENTRET,16
+#-------------------------------
+[CAMPER,Jeff,1]
+LoseText = "You beat me again!"
+Pokemon = FEAROW,29
+Pokemon = FURRET,29
+#-------------------------------
+[PICNICKER,Susie]
+LoseText = "Defeated! Oh my!"
+Pokemon = MEOWTH,18
+#-------------------------------
+[PICNICKER,Susie,1]
+LoseText = "Defeated! Oh my!"
+Pokemon = PERSIAN,32
+#-------------------------------
+[HIKER,Ford]
+LoseText = "You're too good for me!"
+Pokemon = MACHOP,19
+#-------------------------------
+[FISHERMAN,Andrew]
+LoseText = "Washed out!"
+Pokemon = MAGIKARP,14
+Pokemon = MAGIKARP,18
+#-------------------------------
+[BEAUTY,Bridget]
+LoseText = "My Skitty!"
+Pokemon = SKITTY,18
+#-------------------------------
+[LASS,Crissy]
+LoseText = "You didn't have to win so convincingly!"
+Pokemon = PLUSLE,100
+    Moves = CHARGE,SWIFT,DISCHARGE,THUNDER
+Pokemon = MINUN,100
+    Moves = FAKETEARS,THUNDERBOLT,HELPINGHAND,NUZZLE
+Pokemon = ROSERADE,100
+    Moves = INGRAIN,GIGADRAIN,SLUDGEBOMB,HIDDENPOWERFIR
+Pokemon = DELCATTY,100
+    Moves = FAKEOUT,DOUBLESLAP,HELPINGHAND,WILDCHARGE
+Pokemon = JUMPLUFF,100
+    Moves = ACROBATICS,SEEDBOMB,LEECHSEED,TAILWIND
+Pokemon = WALREIN,100
+    Moves = SURF,BLIZZARD,PROTECT,SIGNALBEAM
+#-------------------------------
+[COOLCOUPLE,Alice & Bob]
+LoseText = "Our teamwork failed!"
+Pokemon = TURTWIG,19
+Pokemon = CHIMCHAR,19
+#-------------------------------
+[RIVAL_Brendan,Brendan]
+LoseText = "..."
+Pokemon = MARSHTOMP,19
+#-------------------------------
+[SWIMMER2_F,Ariel]
+LoseText = "Washed out!"
+Pokemon = STARYU,15
+Pokemon = GOLDEEN,11
+#-------------------------------
+[CHAMPION_Blue,Blue]
+LoseText = "Not too shabby."
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = BULBASAUR,18
+#-------------------------------
+[CHAMPION_Blue,Blue,1]
+LoseText = "Not too shabby."
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = CHARMANDER,18
+#-------------------------------
+[CHAMPION_Blue,Blue,2]
+LoseText = "Not too shabby."
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = SQUIRTLE,18
+#-------------------------------
+[CHAMPION_Blue,Blue]
+LoseText = "A good battle indeed!"
+Pokemon = VENUSAUR,63
+    Item = SITRUSBERRY
+Pokemon = CHARIZARD,63
+    Item = SITRUSBERRY
+Pokemon = BLASTOISE,63
+    Item = SITRUSBERRY
+#-------------------------------
+#-------------------------------
+# POKEMON WORLD TOURNAMENT
+#-------------------------------
+#-------------------------------
+[RIVAL_Aria,Aria,1]
+LoseText = "Maybe you've outperformed us today..."
+Pokemon = PRIMARINA,50
+    Item = STARFBERRY
+    Moves = SPARKLINGARIA,ICYWIND,AQUARING,LIGHTSCREEN
+    AbilityIndex = 1
+    Shiny = yes
+    Nature = CALM
+Pokemon = DELPHOX,50
+    Item = PSYCHICGEM
+    Moves = PSYBEAM,MYSTICALFIRE,SHADOWBALL,SWAGGER
+    AbilityIndex = 1
+    Nature = MODEST
+Pokemon = AROMATISSE,50
+    Item = ELEMENTALSEED
+    Moves = MISTYTERRAIN,CHARM,DRAININGKISS,NASTYPLOT
+    AbilityIndex = 1
+    Nature = BOLD
+Pokemon = VIVILLON,50
+    Item = SYNTHETICSEED
+    Moves = SLEEPPOWDER,STRUGGLEBUG,ROOST,QUIVERDANCE
+    AbilityIndex = 1
+    Form = 2
+    Nature = TIMID
+Pokemon = BRUXISH,50
+    Item = KEEBERRY
+    Moves = CRUNCH,POISONFANG,SWORDSDANCE,AQUAJET
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = COPPERAJAH,50
+    Item = EXPERTBELT
+    Moves = HEAVYSLAM,BULLDOZE,STEALTHROCK,WHIRLWIND
+    AbilityIndex = 1
+    Nature = ADAMANT
+#-------------------------------
+[RICHBOY,Winston,1]
+LoseText = "Humph! I didn't think it would happen like this again..."
+Pokemon = JYNX,50
+    Item = MAGICALSEED
+    Moves = WISH,CONFUSION,FROSTBREATH,SING
+    AbilityIndex = 1
+    Nature = MODEST
+Pokemon = SWANNA,50
+    Item = MYSTICWATER
+    Moves = ROOST,AIRSLASH,BUBBLEBEAM,TAILWIND
+    AbilityIndex = 0
+    Nature = TIMID
+Pokemon = WATCHOG,50
+    Item = KINGSROCK
+    Moves = BULLETSEED,CONFUSERAY,CRUNCH,THUNDERWAVE
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = NIDOQUEEN,50
+    Item = STARFBERRY
+    Moves = SUPERPOWER,TOXICSPIKES,EARTHPOWER,POISONFANG
+    AbilityIndex = 1
+    Nature = NAUGHTY
+Pokemon = ESCAVALIER,50
+    Item = DARKGEM
+    Moves = FURYCUTTER,FEINTATTACK,IRONDEFENSE,FELLSTINGER
+    AbilityIndex = 0
+    Nature = IMPISH
+Pokemon = MANECTRIC,50
+    Item = LAXINCENSE
+    Moves = THUNDERWAVE,BITE,THUNDERFANG,DOUBLETEAM
+    AbilityIndex = 1
+    Nature = ADAMANT
+#-------------------------------
+[AROMALADY,Petunia,1]
+LoseText = "OH MY GOSH! How could I lose to you AGAIN?! I've had it with this abuse!"
+Pokemon = WIGGLYTUFF,50
+    Item = PIXIEPLATE
+    Moves = PLAYROUGH,DOUBLEEDGE,CHARM,WISH
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = LURANTIS,50
+    Item = CHILANBERRY
+    Moves = SOLARBEAM,GROWTH,SUNNYDAY,WEATHERBALL
+    AbilityIndex = 0
+    Nature = MODEST
+Pokemon = VESPIQUEN,50
+    Item = YACHEBERRY
+    Moves = STRUGGLEBUG,HEALORDER,SWAGGER,TOXIC
+    AbilityIndex = 0
+    Nature = CALM
+Pokemon = ROSERADE,50
+    Item = WIDELENS
+    Moves = SYNTHESIS,PETALDANCE,GROWTH,SLEEPPOWDER
+    AbilityIndex = 0
+    Nature = TIMID
+Pokemon = RIBOMBEE,50
+    Item = BUGGEM
+    Moves = POLLENPUFF,DRAININGKISS,STICKYWEB,NATUREPOWER
+    AbilityIndex = 1
+    Nature = MODEST
+Pokemon = SKUNTANK,50
+    Item = SHELLBELL
+    Moves = SUCKERPUNCH,FLAMETHROWER,ACIDSPRAY,FOCUSENERGY
+    AbilityIndex = 1
+    Nature = NAIVE
+#-------------------------------
+[LEADER_Anthony,Anthony,1]
+Pokemon = HERACROSS,50
+    Item = STARFBERRY
+    Moves = BRICKBREAK,AERIALACE,PINMISSILE,SWORDSDANCE
+    AbilityIndex = 0
+    Nature = JOLLY
+    Shiny = yes
+Pokemon = MASQUERAIN,50
+    Item = SHARPBEAK
+    Moves = AIRCUTTER,BUGBUZZ,STUNSPORE,QUIVERDANCE
+    AbilityIndex = 0
+    Nature = MODEST
+Pokemon = SCOLIPEDE,50
+    Item = TELLURICSEED
+    Moves = BUGBITE,PROTECT,POISONTAIL,ROCKTOMB
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = SHEDINJA,50
+    Item = BLACKGLASSES
+    Moves = SHADOWSNEAK,DIG,THIEF,SWORDSDANCE
+    AbilityIndex = 0
+    Nature = JOLLY
+Pokemon = GALVANTULA,50
+    Item = REDCARD
+    Moves = THUNDERWAVE,PROTECT,INFESTATION,STICKYWEB
+    AbilityIndex = 1
+    Nature = BOLD
+Pokemon = VESPIQUEN,50
+    Item = RAZORCLAW
+    Moves = SLASH,SWAGGER,HEALORDER,TOXIC
+    AbilityIndex = 0
+    Nature = CAREFUL
+#-------------------------------
+[LEADER_Scarlett,Scarlett,1]
+Pokemon = CHANDELURE,50
+    Item = TELLURICSEED
+    Moves = PAINSPLIT,WILLOWISP,MINIMIZE,HEX
+    AbilityIndex = 1
+    Nature = BOLD
+    Shiny = yes
+Pokemon = DELPHOX,50
+    Item = ELEMENTALSEED
+    Moves = MYSTICALFIRE,LIGHTSCREEN,PSYBEAM,WISH
+    AbilityIndex = 1
+    Nature = CALM
+Pokemon = INCINEROAR,50
+    Item = PASSHOBERRY
+    Moves = FIREFANG,DARKESTLARIAT,CROSSCHOP,PARTINGSHOT
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = TURTONATOR,50
+    Item = EXPERTBELT
+    Moves = INCINERATE,DRAGONPULSE,REVENGE,ROCKTOMB
+    AbilityIndex = 0
+    Nature = RELAXED
+Pokemon = MAROWAK,50
+    Item = THICKCLUB
+    Moves = SHADOWBONE,STOMPINGTANTRUM,FLAMEWHEEL,DETECT
+    AbilityIndex = 1
+    Nature = ADAMANT
+    Form = 1
+Pokemon = BLAZIKEN,50
+    Item = CHILANBERRY
+    Moves = BRAVEBIRD,FIREPUNCH,DOUBLEKICK,BULKUP
+    AbilityIndex = 0
+    Nature = JOLLY
+#-------------------------------
+[CELESTIAL_Astra,Astra,1]
+Pokemon = UMBREON,50
+    Item = SITRUSBERRY
+    Moves = SNARL,CONFUSERAY,MOONLIGHT,TOXIC
+    AbilityIndex = 0
+    Nature = CALM
+    Shiny = yes
+Pokemon = ABSOL,50
+    Item = SCOPELENS
+    Moves = NIGHTSLASH,KNOCKOFF,AERIALACE,SWORDSDANCE
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = PORYGON2,50
+    Item = EVIOLITE
+    Moves = PSYBEAM,RECOVER,ICYWIND,CONVERSION2
+    AbilityIndex = 1
+    Nature = BOLD
+Pokemon = BRONZONG,50
+    Item = ZOOMLENS
+    Moves = HYPNOSIS,CONFUSION,GYROBALL,STEALTHROCK
+    AbilityIndex = 0
+    Nature = BRAVE
+Pokemon = PINCURCHIN,50
+    Item = BERRYJUICE
+    Moves = RECOVER,SPARK,BUBBLEBEAM,TOXICSPIKES
+    AbilityIndex = 1
+    Nature = RELAXED
+Pokemon = MISMAGIUS,50
+    Item = CHARCOAL
+    Moves = POWERGEM,MYSTICALFIRE,HEX,NASTYPLOT
+    AbilityIndex = 1
+    Nature = TIMID
+#-------------------------------
+# New Rule Implementation Stops after Here
+#-------------------------------
+[LEADER_Skyler,Skyler,1]
+Pokemon = CHATOT,50
+    Item = WACANBERRY
+    Moves = NASTYPLOT,BOOMBURST,CHATTER,ENCORE
+    AbilityIndex = 0
+    Nature = TIMID
+    Shiny = yes
+Pokemon = ORICORIO,50
+    Item = FOCUSBAND
+    Moves = REVELATIONDANCE,AIRSLASH,ROOST,FEATHERDANCE
+    AbilityIndex = 1
+    Nature = TIMID
+Pokemon = TOUCANNON,50
+    Item = GRASSGEM
+    Moves = BEAKBLAST,BULLETSEED,ROOST,ROCKBLAST
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = JUMPLUFF,50
+    Item = COBABERRY
+    Moves = SLEEPPOWDER,RAGEPOWDER,STRENGTHSAP,SEEDBOMB
+    AbilityIndex = 0
+    Nature = CAREFUL
+Pokemon = RUFFLET,50
+    Item = EVIOLITE
+    Moves = TAILWIND,CRUSHCLAW,AERIALACE,HONECLAWS
+    AbilityIndex = 0
+    Nature = IMPISH
+Pokemon = GYARADOS,50
+    Item = WIDELENS
+    Moves = DRAGONDANCE,AQUATAIL,CRUNCH,ICEFANG
+    AbilityIndex = 0
+    Nature = JOLLY
+#-------------------------------
+[LEADER_Florinia,Florinia,1]
+Pokemon = CRADILY,50
+    Item = MARANGABERRY
+    Moves = STEALTHROCK,RECOVER,INGRAIN,ANCIENTPOWER
+    AbilityIndex = 1
+    Nature = CALM
+Pokemon = WHIMSICOTT,50
+    Item = KEBIABERRY
+    Moves = NATUREPOWER,TAILWIND,MOONBLAST,ENERGYBALL
+    AbilityIndex = 0
+    Nature = MODEST
+Pokemon = ARAQUANID,50
+    Item = LANSATBERRY
+    Moves = LIQUIDATION,LUNGE,STICKYWEB,WIDEGUARD
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = TORTERRA,50
+    Item = LUMINOUSMOSS
+    Moves = EARTHQUAKE,WOODHAMMER,LEECHSEED,HEAVYSLAM
+    AbilityIndex = 1
+    Nature = IMPISH
+Pokemon = HIPPOWDON,50
+    Item = SMOOTHROCK
+    Moves = STOCKPILE,REST,EARTHQUAKE,ROAR
+    AbilityIndex = 0
+    Nature = IMPISH
+Pokemon = CACTURNE,50
+    Item = TOXICORB
+    Moves = SWITCHEROO,SPIKYSHIELD,PAYBACK,LEECHSEED
+    AbilityIndex = 0
+    Nature = SASSY
+#-------------------------------
+[REGALDAME,Chelsea,1]
+Pokemon = FROSLASS,50
+    Item = GHOSTGEM
+    Moves = HEX,WILLOWISP,FROSTBREATH,BLOCK
+    AbilityIndex = 1
+    Nature = TIMID
+    Shiny = yes
+Pokemon = LIEPARD,50
+    Item = SALACBERRY
+    Moves = FAKEOUT,HONECLAWS,SLASH,YAWN
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = POLTEAGEIST,50
+    Item = ROCKYHELMET
+    Moves = STRENGTHSAP,PROTECT,NASTYPLOT,SHADOWBALL
+    AbilityIndex = 0
+    Nature = MODEST
+Pokemon = BEAUTIFLY,50
+    Item = RAZORCLAW
+    Moves = QUIVERDANCE,AIRCUTTER,STUNSPORE,BUGBUZZ
+    AbilityIndex = 1
+    Nature = TIMID
+Pokemon = FURFROU,50
+    Item = LUMBERRY
+    Moves = COTTONGUARD,SUCKERPUNCH,HEADBUTT,WORKUP
+    AbilityIndex = 0
+    Nature = IMPISH
+Pokemon = MEGANIUM,50
+    Item = LAXINCENSE
+    Moves = REFLECT,LIGHTSCREEN,SYNTHESIS,PETALBLIZZARD
+    AbilityIndex = 0
+    Nature = CAREFUL
+#-------------------------------
+[RIVAL_Cole,Cole,1]
+Pokemon = ORICORIO,50
+    Item = SHARPBEAK
+    Moves = TAILWIND,REVELATIONDANCE,ROOST,AIRSLASH
+    AbilityIndex = 1
+    Nature = MODEST
+    Shiny = yes
+Pokemon = LEAVANNY,50
+    Item = BERRYJUICE
+    Moves = SWORDSDANCE,LEAFBLADE,FELLSTINGER,BATONPASS
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = SAWSBUCK,50
+    Item = SITRUSBERRY
+    Moves = SYNTHESIS,NATUREPOWER,JUMPKICK,HORNLEECH
+    AbilityIndex = 0
+    Nature = ADAMANT
+    Form = 1
+Pokemon = STUNFISK,50
+    Item = FIGYBERRY
+    Moves = SUCKERPUNCH,REVENGE,SNAPTRAP,YAWN
+    AbilityIndex = 0
+    Nature = IMPISH
+    Form = 1
+Pokemon = CASTFORM,50
+    Item = HEATROCK
+    Moves = SUNNYDAY,WEATHERBALL,CLEARSMOG,DISABLE
+    AbilityIndex = 0
+    Nature = TIMID
+Pokemon = SUDOWOODO,50
+    Item = LUMBERRY
+    Moves = HEADSMASH,CURSE,HAMMERARM,SUCKERPUNCH
+    AbilityIndex = 1
+    Nature = ADAMANT
+#-------------------------------
+[LEADER_Whitney,Whitney,1]
+Pokemon = MILTANK,50
+    Item = NORMALGEM
+    Moves = MILKDRINK,HAMMERARM,BODYSLAM,PLAYROUGH
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = WIGGLYTUFF,50
+    Item = PIXIEPLATE
+    Moves = HYPERVOICE,WISH,PLAYROUGH,STOCKPILE
+    AbilityIndex = 1
+    Nature = SASSY
+Pokemon = CHANSEY,50
+    Item = EVIOLITE
+    Moves = SOFTBOILED,MINIMIZE,SEISMICTOSS,LIGHTSCREEN
+    AbilityIndex = 0
+    Nature = CAREFUL
+Pokemon = TAUROS,50
+    Item = SITRUSBERRY
+    Moves = ZENHEADBUTT,TAKEDOWN,ASSURANCE,WORKUP
+    AbilityIndex = 0
+    Nature = JOLLY
+Pokemon = CLEFABLE,50
+    Item = QUICKCLAW
+    Moves = MOONBLAST,WISH,MINIMIZE,COSMICPOWER
+    AbilityIndex = 1
+    Nature = BOLD
+Pokemon = URSARING,50
+    Item = TOXICORB
+    Moves = BELLYDRUM,CLOSECOMBAT,PLAYROUGH,DOUBLEEDGE
+    AbilityIndex = 1
+    Nature = JOLLY
+#-------------------------------
+[RIVAL_Aurelia,Aurelia,1]
+Pokemon = NINETALES,50
+    Item = SHUCABERRY
+    Moves = NASTYPLOT,CONFUSERAY,FIREBLAST,EXTRASENSORY
+    AbilityIndex = 1
+    Nature = TIMID
+    Shiny = yes
+Pokemon = DEDENNE,50
+    Item = ABSORBBULB
+    Moves = DISCHARGE,NUZZLE,PLAYROUGH,VOLTSWITCH
+    AbilityIndex = 1
+    Nature = GENTLE
+Pokemon = AROMATISSE,50
+    Item = STARFBERRY
+    Moves = CALMMIND,AROMATHERAPY,WISH,MOONBLAST
+    AbilityIndex = 1
+    Nature = CALM
+Pokemon = CINCCINO,50
+    Item = BLUNDERPOLICY
+    Moves = TAILSLAP,HELPINGHAND,SING,ROCKBLAST
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = FROSLASS,50
+    Item = NEVERMELTICE
+    Moves = WILLOWISP,ICESHARD,ICICLECRASH,HEX
+    AbilityIndex = 1
+    Nature = NAIVE
+Pokemon = GOREBYSS,50
+    Item = GRIPCLAW
+    Moves = WHIRLPOOL,AQUARING,AMNESIA,PSYCHIC
+    AbilityIndex = 0
+    Nature = CALM
+#-------------------------------
+[RIVAL_Brady,Brady,1]
+Pokemon = SILVALLY,50
+    Item = DARKMEMORY
+    Moves = MULTIATTACK,AIRSLASH,FIREFANG,XSCISSOR
+    AbilityIndex = 0
+    Nature = HASTY
+    Shiny = yes
+Pokemon = REUNICLUS,50
+    Item = LANSATBERRY
+    Moves = PSYCHIC,LIGHTSCREEN,REFLECT,RECOVER
+    AbilityIndex = 1
+    Nature = MODEST
+Pokemon = DHELMISE,50
+    Item = BINDINGBAND
+    Moves = WHIRLPOOL,HEAVYSLAM,GIGADRAIN,RAPIDSPIN
+    AbilityIndex = 0
+    Nature = NAUGHTY
+Pokemon = PORYGONZ,50
+    Item = KEEBERRY
+    Moves = TRICKROOM,RECOVER,TRIATTACK,DISCHARGE
+    AbilityIndex = 0
+    Nature = MODEST
+Pokemon = MIMIKYU,50
+    Item = TELLURICSEED
+    Moves = HONECLAWS,SHADOWCLAW,WOODHAMMER,SHADOWSNEAK
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = BRONZONG,50
+    Item = SHUCABERRY
+    Moves = GYROBALL,EXTRASENSORY,CONFUSERAY,HYPNOSIS
+    AbilityIndex = 1
+    Nature = RELAXED
+#-------------------------------
+[LEADER_Misty,Misty,1]
+Pokemon = STARMIE,50
+    Item = EJECTBUTTON
+    Moves = PSYCHIC,HYDROPUMP,CONFUSERAY,RAPIDSPIN
+    AbilityIndex = 1
+    Nature = TIMID
+Pokemon = LAPRAS,50
+    Item = BRIGHTPOWDER
+    Moves = LIFEDEW,SPARKLINGARIA,FREEZEDRY,RAINDANCE
+    AbilityIndex = 0
+    Nature = CALM
+Pokemon = SEAKING,50
+    Item = CELLBATTERY
+    Moves = WATERFALL,AQUATAIL,FLAIL,TAILWHIP
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = SWANNA,50
+    Item = RAZORCLAW
+    Moves = TAILWIND,AIRCUTTER,ROOST,RAINDANCE
+    AbilityIndex = 0
+    Nature = BOLD
+Pokemon = BLASTOISE,50
+    Item = BERRYJUICE
+    Moves = SHELLSMASH,AQUATAIL,FLAIL,TAILWHIP
+    AbilityIndex = 0
+    Nature = HASTY
+Pokemon = LANTURN,50
+    Item = MYSTICWATER
+    Moves = PSYBEAM,BUBBLEBEAM,THUNDERWAVE,ELECTROBALL
+    AbilityIndex = 0
+    Nature = CALM
+#-------------------------------
+[TRAINER_Mira,Mira,1]
+Pokemon = KADABRA,50
+    Item = EVIOLITE
+    Moves = CALMMIND,RECOVER,PSYSHOCK,TELEPORT
+    AbilityIndex = 0
+    Nature = MODEST
+Pokemon = MAGMORTAR,50
+    Item = FIGHTINGGEM
+    Moves = LAVAPLUME,CONFUSERAY,CROSSCHOP,MACHPUNCH
+    AbilityIndex = 0
+    Nature = LAX
+Pokemon = TOGEKISS,50
+    Item = QUICKCLAW
+    Moves = AIRSLASH,AURASPHERE,MORNINGSUN,SWEETKISS
+    AbilityIndex = 1
+    Nature = TIMID
+Pokemon = GLACEON,50
+    Item = LANSATBERRY
+    Moves = WISH,DETECT,FREEZEDRY,MUDSLAP
+    AbilityIndex = 1
+    Nature = BOLD
+Pokemon = GENGAR,50
+    Item = ELEMENTALSEED
+    Moves = SHADOWBALL,CLEARSMOG,DARKPULSE,HYPNOSIS
+    AbilityIndex = 0
+    Nature = TIMID
+Pokemon = EMPOLEON,50
+    Item = SAFETYGOGGLES
+    Moves = SWORDSDANCE,AGILITY,POWERTRIP,AQUAJET
+    AbilityIndex = 0
+    Nature = ADAMANT
+#-------------------------------
+[TRAINER_Cheryl,Cheryl,1]
+Pokemon = CHANSEY,50
+    Item = EVIOLITE
+    Moves = LIFEDEW,MINIMIZE,SEISMICTOSS,LIGHTSCREEN
+    AbilityIndex = 0
+    Nature = CALM
+Pokemon = LUDICOLO,50
+    Item = BRIGHTPOWDER
+    Moves = NATUREPOWER,GIGADRAIN,HYDROPUMP,RAINDANCE
+    AbilityIndex = 0
+    Nature = MODEST
+Pokemon = WALREIN,50
+    Item = ROOMSERVICE
+    Moves = BRINE,AURORABEAM,SWAGGER,BODYSLAM
+    AbilityIndex = 1
+    Nature = SASSY
+Pokemon = CRADILY,50
+    Item = WATERGEM
+    Moves = BRINE,GIGADRAIN,LEECHSEED,INGRAIN
+    AbilityIndex = 1
+    Nature = BOLD
+Pokemon = ABOMASNOW,50
+    Item = LANSATBERRY
+    Moves = AURORAVEIL,BLIZZARD,WOODHAMMER,SWAGGER
+    AbilityIndex = 0
+    Nature = RELAXED
+Pokemon = PORYGONZ,50
+    Item = LAXINCENSE
+    Moves = TRICKROOM,TRIATTACK,NASTYPLOT,PSYBEAM
+    AbilityIndex = 0
+    Nature = QUIET
+#-------------------------------
+[RIVAL_Hop,Hop,1]
+Pokemon = DUBWOOL,50
+    Item = NORMALGEM
+    Moves = DOUBLEEDGE,COTTONGUARD,HEADBUTT,REVERSAL
+    AbilityIndex = 0
+    Nature = JOLLY
+Pokemon = INTELEON,50
+    Item = PROTECTIVEPADS
+    Moves = SNIPESHOT,UTURN,SUCKERPUNCH,FELLSTINGER
+    AbilityIndex = 1
+    Nature = LONELY
+Pokemon = PINCURCHIN,50
+    Item = WATERGEM
+    Moves = BUBBLEBEAM,SUCKERPUNCH,ZINGZAP,CURSE
+    AbilityIndex = 0
+    Nature = BRAVE
+Pokemon = CORVIKNIGHT,50
+    Item = MENTALHERB
+    Moves = TAILWIND,ROOST,TAUNT,BRAVEBIRD
+    AbilityIndex = 1
+    Nature = IMPISH
+Pokemon = SANDACONDA,50
+    Item = ELEMENTALSEED
+    Moves = MUDSLAP,MINIMIZE,COIL,BULLDOZE
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = RILLABOOM,50
+    Item = LAXINCENSE
+    Moves = DRUMBEATING,FAKEOUT,NATUREPOWER,KNOCKOFF
+    AbilityIndex = 0
+    Nature = ADAMANT
+#-------------------------------
+[LEADER_Chili,Chili,1]
+Pokemon = SIMISEAR,50
+    Item = GANLONBERRY
+    Moves = BELCH,NASTYPLOT,HEATWAVE,DISARMINGVOICE
+    AbilityIndex = 0
+    Nature = TIMID
+Pokemon = ARCANINE,50
+    Item = FIGHTINGGEM
+    Moves = REVERSAL,EXTREMESPEED,BURNUP,FLAREBLITZ
+    AbilityIndex = 0
+    Nature = NAIVE
+Pokemon = MAGMORTAR,50
+    Item = SALACBERRY
+    Moves = CONFUSERAY,CLEARSMOG,FLAMETHROWER,BELCH
+    AbilityIndex = 0
+    Nature = MODEST
+Pokemon = CAMERUPT,50
+    Item = MENTALHERB
+    Moves = YAWN,FOCUSENERGY,EARTHQUAKE,ROCKSLIDE
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = DARMANITAN,50
+    Item = FIREGEM
+    Moves = FLAREBLITZ,THRASH,HAMMERARM,TAUNT
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = LUXRAY,50
+    Item = BRIGHTPOWDER
+    Moves = THUNDERWAVE,SPARK,BITE,VOLTSWITCH
+    AbilityIndex = 1
+    Nature = LONELY
+#-------------------------------
+[OFFICEWORKER_F,Trisha,1]
+Pokemon = CINCCINO,50
+    Item = PROTECTIVEPADS
+    Moves = BULLETSEED,ROCKBLAST,TAILSLAP,KNOCKOFF
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = DUGTRIO,50
+    Item = SHELLBELL
+    Moves = EARTHQUAKE,SUCKERPUNCH,HONECLAWS,DIG
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = MEDICHAM,50
+    Item = LUMBERRY
+    Moves = ZENHEADBUTT,HIGHJUMPKICK,BULLETPUNCH,FIREPUNCH
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = DRIFBLIM,50
+    Item = HEAVYDUTYBOOTS
+    Moves = MINIMIZE,BATONPASS,STRENGTHSAP,STOCKPILE
+    AbilityIndex = 0
+    Nature = TIMID
+Pokemon = VAPOREON,50
+    Item = APICOTBERRY
+    Moves = AQUARING,DETECT,MUDDYWATER,WISH
+    AbilityIndex = 1
+    Nature = CALM
+Pokemon = MISMAGIUS,50
+    Item = MIRACLESEED
+    Moves = MAGICALLEAF,NASTYPLOT,HEX,POWERGEM
+    AbilityIndex = 1
+    Nature = TIMID
+#-------------------------------
+[OFFICER,Hank,1]
+Pokemon = BOLTUND,50
+    Item = PETAYABERRY
+    Moves = DISCHARGE,ELECTRICTERRAIN,SANDATTACK,CHARGE
+    AbilityIndex = 1
+    Nature = MODEST
+Pokemon = CRABOMINABLE,50
+    Item = WHITEHERB
+    Moves = CLOSECOMBAT,ICEHAMMER,WIDEGUARD,PURSUIT
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = LINOONE,50
+    Item = BUGGEM
+    Moves = PINMISSILE,EXTREMESPEED,COVET,FLING
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = RAICHU,50
+    Item = FOCUSSASH
+    Moves = ELECTROBALL,LIGHTSCREEN,NASTYPLOT,PSYCHIC
+    AbilityIndex = 1
+    Nature = TIMID
+Pokemon = YANMEGA,50
+    Item = SCOPELENS
+    Moves = NIGHTSLASH,LEECHLIFE,AIRSLASH,ANCIENTPOWER
+    AbilityIndex = 0
+    Nature = LONELY
+Pokemon = ARAQUANID,50
+    Item = QUICKCLAW
+    Moves = WIDEGUARD,LUNGE,LIQUIDATION,STICKYWEB
+    AbilityIndex = 0
+    Nature = ADAMANT
+#-------------------------------
+[PRESCHOOLER_F,Hannah,1]
+Pokemon = AZUMARILL,50
+    Item = PROTECTIVEPADS
+    Moves = BOUNCE,PLAYROUGH,RAINDANCE,AQUATAIL
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = REUNICLUS,50
+    Item = TWISTEDSPOON
+    Moves = PSYCHIC,REFLECT,LIGHTSCREEN,RECOVER
+    AbilityIndex = 1
+    Nature = CALM
+Pokemon = GENGAR,50
+    Item = EXPERTBELT
+    Moves = CLEARSMOG,HYPNOSIS,HEX,DREAMEATER
+    AbilityIndex = 0
+    Nature = TIMID
+Pokemon = FERROTHORN,50
+    Item = STEELGEM
+    Moves = GYROBALL,LEECHSEED,TOXIC,POWERWHIP
+    AbilityIndex = 0
+    Nature = BRAVE
+Pokemon = SHARPEDO,50
+    Item = EJECTBUTTON
+    Moves = SWAGGER,CRUNCH,LIQUIDATION,DESTINYBOND
+    AbilityIndex = 0
+    Nature = JOLLY
+Pokemon = METAGROSS,50
+    Item = LEPPABERRY
+    Moves = BULLETPUNCH,ZENHEADBUTT,FLASHCANNON,HAMMERARM
+    AbilityIndex = 0
+    Nature = NAUGHTY
+#-------------------------------
+[PRESCHOOLER_M,Jojo,1]
+Pokemon = ELECTRODE,50
+    Item = SILKSCARF
+    Moves = EXPLOSION,DISCHARGE,CHARGEBEAM,LIGHTSCREEN
+    AbilityIndex = 0
+    Nature = LONELY
+Pokemon = WALREIN,50
+    Item = STARFBERRY
+    Moves = YAWN,STOCKPILE,SURF,REST
+    AbilityIndex = 0
+    Nature = CALM
+Pokemon = CARKOL,50
+    Item = EVIOLITE
+    Moves = RAPIDSPIN,STEALTHROCK,ROCKBLAST,HEATCRASH
+    AbilityIndex = 1
+    Nature = IMPISH
+Pokemon = WEEZING,50
+    Item = WIKIBERRY
+    Moves = TOXIC,SLUDGEBOMB,HAZE,HEATWAVE
+    AbilityIndex = 0
+    Nature = BOLD
+Pokemon = PANGORO,50
+    Item = KEEBERRY
+    Moves = BULLETPUNCH,CRUNCH,STORMTHROW,PARTINGSHOT
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = INCINEROAR,50
+    Item = METRONOME
+    Moves = FAKEOUT,DARKESTLARIAT,FIREFANG,CROSSCHOP
+    AbilityIndex = 0
+    Nature = ADAMANT
+#-------------------------------
+[BIRDKEEPER,Roy,1]
+Pokemon = PIDGEOT,50
+    Item = WEAKNESSPOLICY
+    Moves = BRAVEBIRD,STEELWING,AGILITY,QUICKATTACK
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = EISCUE,50
+    Item = ORANBERRY
+    Moves = BELLYDRUM,ICICLECRASH,HEADSMASH,DOUBLEEDGE
+    AbilityIndex = 0
+    Nature = JOLLY
+Pokemon = GOLDUCK,50
+    Item = SITRUSBERRY
+    Moves = HYDROPUMP,ZENHEADBUTT,YAWN,DISABLE
+    AbilityIndex = 1
+    Nature = HASTY
+Pokemon = TALONFLAME,50
+    Item = LANSATBERRY
+    Moves = ACROBATICS,TAILWIND,ROOST,FLAREBLITZ
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = SIRFETCHD,50
+    Item = TELLURICSEED
+    Moves = FIRSTIMPRESSION,SWORDSDANCE,KNOCKOFF,BRICKBREAK
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = MANDIBUZZ,50
+    Item = BLACKGLASSES
+    Moves = ROOST,TOXIC,KNOCKOFF,BONERUSH
+    AbilityIndex = 0
+    Nature = IMPISH
+#-------------------------------
+[REGALKNIGHT,Spencer,1]
+Pokemon = AEGISLASH,50
+    Item = LUMBERRY
+    Moves = SWORDSDANCE,KINGSSHIELD,IRONHEAD,SHADOWSNEAK
+    AbilityIndex = 0
+    Nature = ADAMANT
+    Shiny = yes
+Pokemon = CORVIKNIGHT,50
+    Item = HEAVYDUTYBOOTS
+    Moves = DEFOG,ROOST,BRAVEBIRD,TAUNT
+    AbilityIndex = 0
+    Nature = IMPISH
+Pokemon = ZEBSTRIKA,50
+    Item = TELLURICSEED
+    Moves = WILDCHARGE,FLAMECHARGE,STOMP,THUNDERWAVE
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = RAPIDASH,50
+    Item = EXPERTBELT
+    Moves = FLAMEWHEEL,MEGAHORN,POISONJAB,SMARTSTRIKE
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = SAWSBUCK,50
+    Item = BLACKBELT
+    Moves = JUMPKICK,NATUREPOWER,HORNLEECH,MEGAHORN
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = UNFEZANT,50
+    Item = WIKIBERRY
+    Moves = SWAGGER,HYPNOSIS,AIRCUTTER,NIGHTSLASH
+    AbilityIndex = 1
+    Nature = NAIVE
+#-------------------------------
+[ROCKET_Proton,Proton,1]
+Pokemon = WEEZING,50
+    Item = LEPPABERRY
+    Moves = TOXIC,CLEARSMOG,PAINSPLIT,HEATWAVE
+    AbilityIndex = 0
+    Nature = BOLD
+Pokemon = CROBAT,50
+    Item = ROCKYHELMET
+    Moves = TOXIC,VENOSHOCK,DEFOG,AIRCUTTER
+    AbilityIndex = 0
+    Nature = MODEST
+Pokemon = FALINKS,50
+    Item = LAXINCENSE
+    Moves = NORETREAT,CLOSECOMBAT,FIRSTIMPRESSION,HEADBUTT
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = NOCTOWL,50
+    Item = EJECTBUTTON
+    Moves = REFLECT,MOONBLAST,AIRSLASH,UPROAR
+    AbilityIndex = 0
+    Nature = TIMID
+Pokemon = ARMALDO,50
+    Item = WATERGEM
+    Moves = AQUAJET,XSCISSOR,ROCKBLAST,KNOCKOFF
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = PYUKUMUKU,50
+    Item = MENTALHERB
+    Moves = RECOVER,COUNTER,TAUNT,MIRRORCOAT
+    AbilityIndex = 1
+    Nature = CALM
+#-------------------------------
+[LEADER_Rocco,Rocco,1]
+Pokemon = LYCANROC,50
+    Item = DARKGEM
+    Moves = CRUNCH,ROCKSLIDE,TAUNT,HOWL
+    AbilityIndex = 1
+    Nature = JOLLY
+    Shiny = yes
+    Form = 1
+Pokemon = CARBINK,50
+    Item = WEAKNESSPOLICY
+    Moves = POWERGEM,LIGHTSCREEN,STEALTHROCK,ROCKPOLISH
+    AbilityIndex = 0
+    Nature = CALM
+Pokemon = BASTIODON,50
+    Item = BERRYJUICE
+    Moves = TAUNT,WIDEGUARD,BODYSLAM,METALBURST
+    AbilityIndex = 0
+    Nature = IMPISH
+Pokemon = DREDNAW,50
+    Item = BLACKGLASSES
+    Moves = JAWLOCK,ROCKPOLISH,LIQUIDATION,PROTECT
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = GOLEM,50
+    Item = SHELLBELL
+    Moves = MAGNETRISE,HEAVYSLAM,SPARK,EXPLOSION
+    AbilityIndex = 1
+    Nature = ADAMANT
+    Form = 1
+Pokemon = CRUSTLE,50
+    Item = BABIRIBERRY
+    Moves = SHELLSMASH,ROCKSLIDE,KNOCKOFF,XSCISSOR
+    AbilityIndex = 0
+    Nature = JOLLY
+#-------------------------------
+[CELESTIAL_Angel,Angel,1]
+Pokemon = ESPEON,50
+    Item = CHILANBERRY
+    Moves = MORNINGSUN,PSYCHIC,PSYCHUP,SWIFT
+    AbilityIndex = 1
+    Nature = CALM
+    Shiny = yes
+Pokemon = ALCREMIE,50
+    Item = REDCARD
+    Moves = DAZZLINGGLEAM,DECORATE,AROMATHERAPY,RECOVER
+    AbilityIndex = 0
+    Nature = CALM
+Pokemon = GLALIE,50
+    Item = ROCKGEM
+    Moves = ROLLOUT,ICICLECRASH,ICESHARD,BITE
+    AbilityIndex = 0
+    Nature = JOLLY
+Pokemon = MALAMAR,50
+    Item = SHARPBEAK
+    Moves = SUPERPOWER,PLUCK,DISABLE,PSYCHOCUT
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = SALAZZLE,50
+    Item = EJECTBUTTON
+    Moves = INCINERATE,POISONGAS,VENOSHOCK,FAKEOUT
+    AbilityIndex = 1
+    Nature = TIMID
+Pokemon = MEOWSTIC,50
+    Item = SHELLBELL
+    Moves = PSYSHOCK,SHADOWBALL,CHARGEBEAM,YAWN
+    AbilityIndex = 1
+    Nature = MODEST
+    Gender = female
+    Form = 1
+#-------------------------------
+[LEADER_Falkner,Falkner,1]
+Pokemon = PIDGEOT,50
+    Item = SITRUSBERRY
+    Moves = TAILWIND,BRAVEBIRD,PURSUIT,STEELWING
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = SWELLOW,50
+    Item = BLACKGLASSES
+    Moves = PURSUIT,BOOMBURST,HURRICANE,DEFOG
+    AbilityIndex = 1
+    Nature = MODEST
+Pokemon = CROBAT,50
+    Item = QUICKCLAW
+    Moves = HYPNOSIS,CROSSPOISON,AIRCUTTER,WHIRLWIND
+    AbilityIndex = 1
+    Nature = BRAVE
+Pokemon = HONCHKROW,50
+    Item = MENTALHERB
+    Moves = ROOST,BRAVEBIRD,NIGHTSLASH,SWAGGER
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = DODRIO,50
+    Item = EXPERTBELT
+    Moves = JUMPKICK,SWORDSDANCE,BRAVEBIRD,FLAIL
+    AbilityIndex = 0
+    Nature = JOLLY
+Pokemon = FEAROW,50
+    Item = GHOSTGEM
+    Moves = ASTONISH,DRILLRUN,FOCUSENERGY,DRILLPECK
+    AbilityIndex = 1
+    Nature = ADAMANT
+#-------------------------------
+[RIVAL_Fern,Fern,1]
+Pokemon = DECIDUEYE,50
+    Item = SCOPELENS
+    Moves = DEFOG,SPIRITSHACKLE,LEAFBLADE,UTURN
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = RHYPERIOR,50
+    Item = SNOWBALL
+    Moves = ROCKPOLISH,EARTHQUAKE,ROCKBLAST,HAMMERARM
+    AbilityIndex = 1
+    Nature = IMPISH
+Pokemon = BLAZIKEN,50
+    Item = REDCARD
+    Moves = FOCUSENERGY,NIGHTSLASH,FLAMETHROWER,DOUBLEKICK
+    AbilityIndex = 0
+    Nature = HASTY
+Pokemon = MUDSDALE,50
+    Item = LIECHIBERRY
+    Moves = EARTHQUAKE,HEAVYSLAM,DOUBLEEDGE,SMACKDOWN
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = KROOKODILE,50
+    Item = SOFTSAND
+    Moves = EARTHQUAKE,SANDSTORM,CRUNCH,AQUATAIL
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = HAXORUS,50
+    Item = FIGYBERRY
+    Moves = DRAGONDANCE,CRUNCH,DRAGONCLAW,FIRSTIMPRESSION
+    AbilityIndex = 1
+    Nature = ADAMANT
+#-------------------------------
+[RIVAL_Hugh,Hugh,1]
+Pokemon = UNFEZANT,50
+    Item = METRONOME
+    Moves = ROOST,DEFOG,NIGHTSLASH,AIRCUTTER
+    AbilityIndex = 1
+    Nature = HASTY
+    Gender = male
+Pokemon = BOUFFALANT,50
+    Item = POWERHERB
+    Moves = SKULLBASH,SWORDSDANCE,MEGAHORN,THROATCHOP
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = FURFROU,50
+    Item = KEEBERRY
+    Moves = SUCKERPUNCH,COTTONGUARD,HEADBUTT,REFRESH
+    AbilityIndex = 0
+    Nature = IMPISH
+Pokemon = EELEKTROSS,50
+    Item = SCOPELENS
+    Moves = DISCHARGE,HEADBUTT,CRUNCH,COIL
+    AbilityIndex = 0
+    Nature = RELAXED
+Pokemon = SAMUROTT,50
+    Item = BLACKBELT
+    Moves = SACREDSWORD,AIRSLASH,MEGAHORN,AQUATAIL
+    AbilityIndex = 1
+    Nature = HASTY
+Pokemon = SIMISAGE,50
+    Item = OCCABERRY
+    Moves = SEEDBOMB,SPIKYSHIELD,LOWKICK,COVET
+    AbilityIndex = 1
+    Nature = JOLLY
+#-------------------------------
+[SUBWAYBOSS_Ingo,Ingo,1]
+Pokemon = KLINKLANG,50
+    Item = QUICKCLAW
+    Moves = GEARGRIND,GEARUP,DISCHARGE,SCREECH
+    AbilityIndex = 1
+    Nature = LONELY
+Pokemon = CHANDELURE,50
+    Item = PETAYABERRY
+    Moves = WILLOWISP,SHADOWBALL,OVERHEAT,MEMENTO
+    AbilityIndex = 1
+    Nature = TIMID
+Pokemon = CRUSTLE,50
+    Item = TELLURICSEED
+    Moves = SHELLSMASH,KNOCKOFF,ROCKSLIDE,FURYCUTTER
+    AbilityIndex = 0
+    Nature = JOLLY
+Pokemon = EXCADRILL,50
+    Item = SHELLBELL
+    Moves = SANDSTORM,DIG,SWORDSDANCE,ROCKSLIDE
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = GARBODOR,50
+    Item = BLUNDERPOLICY
+    Moves = GUNKSHOT,TOXICSPIKES,STOCKPILE,PAINSPLIT
+    AbilityIndex = 0
+    Nature = CAREFUL
+Pokemon = CONKELDURR,50
+    Item = FOCUSBAND
+    Moves = MACHPUNCH,WIDEGUARD,ROCKSLIDE,DYNAMICPUNCH
+    AbilityIndex = 1
+    Nature = ADAMANT
+#-------------------------------
+[ROCKET_James,James,1]
+Pokemon = WEEZING,50
+    Item = WEAKNESSPOLICY
+    Moves = SLUDGE,SMOKESCREEN,GYROBALL,PSYBEAM
+    AbilityIndex = 0
+    Nature = GENTLE
+Pokemon = CHIMECHO,50
+    Item = TANGABERRY
+    Moves = UPROAR,HEALBELL,TORMENT,GRASSKNOT
+    AbilityIndex = 1
+    Nature = MODEST
+Pokemon = CARNIVINE,50
+    Item = GRIPCLAW
+    Moves = CRUNCH,BIND,BULLETSEED,BUGBITE
+    AbilityIndex = 1
+    Nature = IMPISH
+Pokemon = TOXAPEX,50
+    Item = PAYAPABERRY
+    Moves = SLUDGEBOMB,KNOCKOFF,SPIKECANNON,WATERPULSE
+    AbilityIndex = 0
+    Nature = LAX
+Pokemon = COFAGRIGUS,50
+    Item = COLBURBERRY
+    Moves = HEX,WILLOWISP,CRAFTYSHIELD,HAZE
+    AbilityIndex = 0
+    Nature = MODEST
+Pokemon = MRMIME,50
+    Item = LIGHTCLAY
+    Moves = LIGHTSCREEN,REFLECT,PSYBEAM,DRAININGKISS
+    AbilityIndex = 1
+    Nature = BOLD
+#-------------------------------
+[LEADER_Julia,Julia,1]
+Pokemon = ELECTRODE,50
+    Item = AIRBALLOON
+    Moves = ELECTROBALL,LIGHTSCREEN,EERIEIMPULSE,SWIFT
+    AbilityIndex = 1
+    Nature = MODEST
+Pokemon = MINUN,50
+    Item = FOCUSSASH
+    Moves = HELPINGHAND,NUZZLE,QUICKATTACK,FAKETEARS
+    AbilityIndex = 1
+    Nature = IMPISH
+Pokemon = ESPEON,50
+    Item = TWISTEDSPOON
+    Moves = FUTURESIGHT,MORNINGSUN,PSYCHIC,QUICKATTACK
+    AbilityIndex = 0
+    Nature = MODEST
+Pokemon = BRUXISH,50
+    Item = MUSCLEBAND
+    Moves = PSYCHICFANGS,AQUAJET,BITE,ICEFANG
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = ORICORIO,50
+    Item = CHARTIBERRY
+    Moves = REVELATIONDANCE,AIRSLASH,ROOST,FEATHERDANCE
+    AbilityIndex = 0
+    Nature = CALM
+Pokemon = TSAREENA,50
+    Item = COBABERRY
+    Moves = TROPKICK,STOMP,PLAYROUGH,ACUPRESSURE
+    AbilityIndex = 1
+    Nature = ADAMANT
+#-------------------------------
+[TRAINER_Lucas,Lucas,1]
+Pokemon = TORTERRA,50
+    Item = YACHEBERRY
+    Moves = CRUNCH,BULLDOZE,RAZORLEAF,WITHDRAW
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = CLEFABLE,50
+    Item = SITRUSBERRY
+    Moves = MOONBLAST,LIFEDEW,FOLLOWME,COSMICPOWER
+    AbilityIndex = 1
+    Nature = BOLD
+Pokemon = SPIRITOMB,50
+    Item = GHOSTGEM
+    Moves = SHADOWSNEAK,SUCKERPUNCH,NIGHTSHADE,DISABLE
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = TALONFLAME,50
+    Item = PROTECTIVEPADS
+    Moves = WINGATTACK,FLAMECHARGE,DEFOG,QUICKATTACK
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = STARMIE,50
+    Item = WISEGLASSES
+    Moves = WATERPULSE,PSYBEAM,ICYWIND,RAPIDSPIN
+    AbilityIndex = 1
+    Nature = RASH
+Pokemon = INFERNAPE,50
+    Item = MUSCLEBAND
+    Moves = MACHPUNCH,FLAMEWHEEL,THUNDERPUNCH,COUNTER
+    AbilityIndex = 1
+    Nature = JOLLY
+#-------------------------------
+[CAPTAIN_Mallow,Mallow,1]
+Pokemon = LURANTIS,50
+    Item = SAFETYGOGGLES
+    Moves = WORRYSEED,LEAFBLADE,SLASH,SYNTHESIS
+    AbilityIndex = 1
+    Nature = IMPISH
+Pokemon = COMFEY,50
+    Item = TERRAINEXTENDER
+    Moves = DRAININGKISS,GRASSYTERRAIN,GRASSKNOT
+    AbilityIndex = 0
+    Nature = TIMID
+Pokemon = TSAREENA,50
+    Item = APICOTBERRY
+    Moves = RAZORLEAF,STOMP,AROMATHERAPY,MAGICALLEAF
+    AbilityIndex = 1
+    Nature = CAREFUL
+Pokemon = TOUCANNON,50
+    Item = ROCKGEM
+    Moves = TAILWIND,ROCKBLAST,WINGATTACK,ROCKSMASH
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = SCEPTILE,50
+    Item = RAZORCLAW
+    Moves = DRAGONBREATH,MEGADRAIN,NIGHTSLASH,LEECHSEED
+    AbilityIndex = 0
+    Nature = HASTY
+Pokemon = TREVENANT,50
+    Item = LUMBERRY
+    Moves = ROCKTOMB,BRANCHPOKE,SHADOWCLAW,FORESTSCURSE
+    AbilityIndex = 0
+    Nature = ADAMANT
+#-------------------------------
+[LEADER_Brawly,Brawly,1]
+Pokemon = HARIYAMA,50
+    Item = SHELLBELL
+    Moves = KNOCKOFF,SMELLINGSALTS,FORCEPALM,WIDEGUARD
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = RAICHU,50
+    Item = WAVEINCENSE
+    Moves = SURF,SHOCKWAVE,QUICKATTACK,NUZZLE
+    AbilityIndex = 1
+    Nature = NAIVE
+    Form = 1
+Pokemon = MIENSHAO,50
+    Item = FOCUSSASH
+    Moves = FAKEOUT,HONECLAWS,UTURN,REVERSAL
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = SCRAFTY,50
+    Item = FIGHTINGGEM
+    Moves = HEADBUTT,LOWKICK,BRICKBREAK,BEATUP
+    AbilityIndex = 0
+    Nature = CAREFUL
+Pokemon = MEDICHAM,50
+    Item = MUSCLEBAND
+    Moves = METRONOME,CONFUSION,SECRETPOWER,FORCEPALM
+    AbilityIndex = 0
+    Nature = IMPISH
+Pokemon = HITMONLEE,50
+    Item = STARFBERRY
+    Moves = MEGAKICK,DOUBLEKICK,FOCUSENERGY,BULLETPUNCH
+    AbilityIndex = 0
+    Nature = ADAMANT
+#-------------------------------
+[PLASMA_Colress,Colress,1]
+Pokemon = KLINKLANG,50
+    Item = MARANGABERRY
+    Moves = GEARGRIND,MAGNETICFLUX,AUTOTOMIZE,DISCHARGE
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = ROTOM,50
+    Item = BRIGHTPOWDER
+    Moves = HEX,THUNDERWAVE,HYDROPUMP,CHARGEBEAM
+    AbilityIndex = 1
+    Nature = TIMID
+    Form = 2
+Pokemon = HYPNO,50
+    Item = WIDELENS
+    Moves = HYPNOSIS,PSYBEAM,HEADBUTT,FIREPUNCH
+    AbilityIndex = 0
+    Nature = BRAVE
+Pokemon = JOLTEON,50
+    Item = FOCUSSASH
+    Moves = HELPINGHAND,TAKEDOWN,CHARM,THUNDERSHOCK
+    AbilityIndex = 0
+    Nature = HASTY
+Pokemon = MAGNEZONE,50
+    Item = AIRBALLOON
+    Moves = SPARK,MIRRORSHOT,SUPERSONIC,MIRRORCOAT
+    AbilityIndex = 0
+    Nature = LAX
+Pokemon = ELECTRODE,50
+    Item = METRONOME
+    Moves = ROLLOUT,CHARGEBEAM,SWIFT,PROTECT
+    AbilityIndex = 0
+    Nature = NAIVE
+#-------------------------------
+[ROCKET_Jessie,Jessie,1]
+Pokemon = WOBBUFFET,50
+    Item = SAFETYGOGGLES
+    Moves = DESTINYBOND,COUNTER,MIRRORCOAT,SAFEGUARD
+    AbilityIndex = 0
+    Nature = CAREFUL
+Pokemon = SEVIPER,50
+    Item = MUSCLEBAND
+    Moves = BITE,POISONTAIL,SWORDSDANCE,GLARE
+    AbilityIndex = 0
+    Nature = JOLLY
+Pokemon = YANMEGA,50
+    Item = HEAVYDUTYBOOTS
+    Moves = ANCIENTPOWER,SILVERWIND,WINGATTACK,STEELWING
+    AbilityIndex = 0
+    Nature = RASH
+Pokemon = MIMIKYU,50
+    Item = EXPERTBELT
+    Moves = PLAYROUGH,SHADOWCLAW,SLASH,CHARM
+    AbilityIndex = 0
+    Nature = JOLLY
+Pokemon = BEWEAR,50
+    Item = PROTECTIVEPADS
+    Moves = BRUTALSWING,STRENGTH,BABYDOLLEYES,FORCEPALM
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = DUSTOX,50
+    Item = LANSATBERRY
+    Moves = PSYBEAM,WHIRLWIND,POISONSTING,GUST
+    AbilityIndex = 1
+    Nature = MODEST
+#-------------------------------
+[ROCKET_Petrel,Petrel,1]
+Pokemon = WEEZING,50
+    Item = SHUCABERRY
+    Moves = POISONGAS,SLUDGEBOMB,TACKLE,PAINSPLIT
+    AbilityIndex = 1
+    Nature = MODEST
+Pokemon = MUDSDALE,50
+    Item = QUICKCLAW
+    Moves = BULLDOZE,STOMP,IRONDEFENSE,ROAR
+    AbilityIndex = 1
+    Nature = IMPISH
+Pokemon = AEGISLASH,50
+    Item = RAZORFANG
+    Moves = AERIALACE,FURYCUTTER,PROTECT,IRONHEAD
+    AbilityIndex = 0
+    Nature = CAREFUL
+Pokemon = RATICATE,50
+    Item = LIECHIBERRY
+    Moves = HYPERFANG,QUICKATTACK,BITE,FLAMEWHEEL
+    AbilityIndex = 1
+    Nature = IMPISH
+Pokemon = FLAREON,50
+    Item = SALACBERRY
+    Moves = FIREFANG,BITE,BABYDOLLEYES,QUICKATTACK
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = TORKOAL,50
+    Item = ROCKGEM
+    Moves = AMNESIA,FLAMEWHEEL,RAPIDSPIN,ANCIENTPOWER
+    AbilityIndex = 1
+    Nature = RELAXED
+#-------------------------------
+[RIVAL_Gladion,Gladion,1]
+Pokemon = SILVALLY,50
+    Item = EXPERTBELT
+    Moves = THUNDERFANG,BITE,DOUBLEHIT,METALSOUND
+    AbilityIndex = 0
+    Nature = JOLLY
+Pokemon = BLASTOISE,50
+    Item = BLUNDERPOLICY
+    Moves = AQUATAIL,PROTECT,TAILWHIP,BITE
+    AbilityIndex = 1
+    Nature = IMPISH
+Pokemon = HAWLUCHA,50
+    Item = WACANBERRY
+    Moves = TAUNT,AERIALACE,SUBMISSION,ENCORE
+    AbilityIndex = 0
+    Nature = JOLLY
+Pokemon = CROBAT,50
+    Item = KINGSROCK
+    Moves = POISONFANG,AIRCUTTER,TOXIC,QUICKATTACK
+    AbilityIndex = 0
+    Nature = NAIVE
+Pokemon = SEVIPER,50
+    Item = POISONGEM
+    Moves = SWAGGER,POISONJAB,FEINT,PUNISHMENT
+    AbilityIndex = 0
+    Nature = NAUGHTY
+Pokemon = TAUROS,50
+    Item = SILKSCARF
+    Moves = HORNATTACK,PAYBACK,WORKUP,SCARYFACE
+    AbilityIndex = 0
+    Nature = CAREFUL
+#-------------------------------
+[LEADER_Roark,Roark,1]
+Pokemon = RAMPARDOS,50
+    Item = LIECHIBERRY
+    Moves = FIREPUNCH,UPROAR,ENDEAVOR,ASSURANCE
+    AbilityIndex = 0
+    Nature = NAUGHTY
+Pokemon = CRUSTLE,50
+    Item = KINGSROCK
+    Moves = ROCKPOLISH,SANDATTACK,BUGBITE,SMACKDOWN
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = ARCHEOPS,50
+    Item = EJECTBUTTON
+    Moves = UTURN,QUICKGUARD,WINGATTACK,ROCKTHROW
+    AbilityIndex = 0
+    Nature = JOLLY
+Pokemon = RELICANTH,50
+    Item = RINDOBERRY
+    Moves = DIVE,YAWN,DOUBLEEDGE,HARDEN
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = STEELIX,50
+    Item = QUICKCLAW
+    Moves = BIND,THUNDERFANG,SMACKDOWN,DRAGONBREATH
+    AbilityIndex = 1
+    Nature = RELAXED
+Pokemon = FERROTHORN,50
+    Item = STEELGEM
+    Moves = POWERWHIP,METALCLAW,TACKLE,HARDEN
+    AbilityIndex = 0
+    Nature = IMPISH
+#-------------------------------
+[RIVAL_Silver,Silver,1]
+Pokemon = WEAVILE,50
+    Item = PROTECTIVEPADS
+    Moves = SHADOWCLAW,ICYWIND,FEINTATTACK,METALCLAW
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = MEGANIUM,50
+    Item = GRASSGEM
+    Moves = SYNTHESIS,LIGHTSCREEN,BODYSLAM,RAZORLEAF
+    AbilityIndex = 0
+    Nature = RELAXED
+Pokemon = TYPHLOSION,50
+    Item = LIECHIBERRY
+    Moves = WILLOWISP,ROLLOUT,SWIFT,FLAMEWHEEL
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = ACCELGOR,50
+    Item = FOCUSSASH
+    Moves = WATERSHURIKEN,QUICKATTACK,GUARDSWAP,STRUGGLEBUG
+    AbilityIndex = 1
+    Nature = HASTY
+Pokemon = DHELMISE,50
+    Item = QUICKCLAW
+    Moves = GYROBALL,WHIRLPOOL,GIGADRAIN,RAPIDSPIN
+    AbilityIndex = 0
+    Nature = BRAVE
+Pokemon = CHESNAUGHT,50
+    Item = COBABERRY
+    Moves = PINMISSILE,BITE,LEECHSEED,POWERUPPUNCH
+    AbilityIndex = 1
+    Nature = ADAMANT
+#-------------------------------
+[LEADER_Viola,Viola,1]
+Pokemon = VIVILLON,50
+    Item = HEAVYDUTYBOOTS
+    Moves = DRAININGKISS,STUNSPORE,BUGBUZZ,AROMATHERAPY
+    AbilityIndex = 0
+    Nature = TIMID
+Pokemon = YANMEGA,50
+    Item = CHARTIBERRY
+    Moves = DETECT,AIRSLASH,SONICBOOM,PURSUIT
+    AbilityIndex = 0
+    Nature = MODEST
+Pokemon = ARAQUANID,50
+    Item = ROCKYHELMET
+    Moves = WIDEGUARD,AQUARING,BUGBITE,SPIDERWEB
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = ARIADOS,50
+    Item = OCCABERRY
+    Moves = FELLSTINGER,SCARYFACE,SUCKERPUNCH,ELECTROWEB
+    AbilityIndex = 0
+    Nature = JOLLY
+Pokemon = PACHIRISU,50
+    Item = SITRUSBERRY
+    Moves = NUZZLE,SWEETKISS,SPARK,IRONTAIL
+    AbilityIndex = 1
+    Nature = IMPISH
+Pokemon = DRAGALGE,50
+    Item = ZOOMLENS
+    Moves = DRAGONTAIL,POISONTAIL,WATERGUN,ACIDARMOR
+    AbilityIndex = 1
+    Nature = BRAVE
+#-------------------------------
+[LEADER_Milo,Milo,1]
+Pokemon = ELDEGOSS,50
+    Item = ZOOMLENS
+    Moves = COTTONSPORE,SING,LEAFTORNADO,LEECHSEED
+    AbilityIndex = 0
+    Nature = RELAXED
+Pokemon = FLAPPLE,50
+    Item = YACHEBERRY
+    Moves = ACROBATICS,DRAGONBREATH,PROTECT,IRONDEFENSE
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = LUDICOLO,50
+    Item = WISEGLASSES
+    Moves = FAKEOUT,KNOCKOFF,BUBBLEBEAM,NATUREPOWER
+    AbilityIndex = 0
+    Nature = TIMID
+Pokemon = TSAREENA,50
+    Item = GRASSGEM
+    Moves = TROPKICK,AROMATICMIST,RAPIDSPIN,ACUPRESSURE
+    AbilityIndex = 1
+    Nature = IMPISH
+Pokemon = RAICHU,50
+    Item = STARFBERRY
+    Moves = THUNDERPUNCH,SWEETKISS,DOUBLETEAM,LIGHTSCREEN
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = CHERRIM,50
+    Item = HEATROCK
+    Moves = FLOWERSHIELD,SUNNYDAY,HELPINGHAND,MAGICALLEAF
+    AbilityIndex = 0
+    Nature = TIMID
+#-------------------------------
+[RIVAL_Marnie,Marnie,1]
+Pokemon = MORPEKO,50
+    Item = BERRYJUICE
+    Moves = BULLETSEED,BITE,SPARK,AGILITY
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = LIEPARD,50
+    Item = LUMBERRY
+    Moves = FAKEOUT,SUCKERPUNCH,TORMENT,SLASH
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = SCRAFTY,50
+    Item = ROSELIBERRY
+    Moves = BRICKBREAK,SCARYFACE,SWAGGER,PAYBACK
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = GRIMMSNARL,50
+    Item = FIGHTINGGEM
+    Moves = SPIRITBREAK,CONFIDE,POWERUPPUNCH,BITE
+    AbilityIndex = 0
+    Nature = IMPISH
+Pokemon = TURTONATOR,50
+    Item = SHUCABERRY
+    Moves = IRONDEFENSE,BODYSLAM,EMBER,SMOG
+    AbilityIndex = 0
+    Nature = SASSY
+Pokemon = MANECTRIC,50
+    Item = MUSCLEBAND
+    Moves = FIREFANG,SHOCKWAVE,BITE,ROAR
+    AbilityIndex = 0
+    Nature = HASTY
+#-------------------------------
+[RIVAL_Amanda,Amanda,1]
+Pokemon = INCINEROAR,50
+    Item = SHUCABERRY
+    Moves = PARTINGSHOT,POWERTRIP,FIREFANG,DOUBLEKICK
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = BRONZONG,50
+    Item = TWISTEDSPOON
+    Moves = WEATHERBALL,GYROBALL,PAYBACK,CONFUSION
+    AbilityIndex = 1
+    Nature = SASSY
+Pokemon = VICTREEBEL,50
+    Item = BLACKSLUDGE
+    Moves = RAZORLEAF,SLEEPPOWDER,CLEARSMOG,TICKLE
+    AbilityIndex = 1
+    Nature = HASTY
+Pokemon = GOURGEIST,50
+    Item = GRASSGEM
+    Moves = BULLETSEED,TRICKORTREAT,PHANTOMFORCE,LEECHSEED
+    AbilityIndex = 0
+    Nature = JOLLY
+Pokemon = CINDERACE,50
+    Item = EXPERTBELT
+    Moves = FLAMECHARGE,COUNTER,HEADBUTT,QUICKATTACK
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = SALAMENCE,50
+    Item = LIECHIBERRY
+    Moves = FLY,DRAGONBREATH,HEADBUTT,PROTECT
+    AbilityIndex = 0
+    Nature = JOLLY
+#-------------------------------
+[XEN_Zetta,Zetta,1]
+Pokemon = SILVALLY,50
+    Item = FIREMEMORY
+    Moves = MULTIATTACK,POISONFANG,SCARYFACE,BITE
+    AbilityIndex = 0
+    Nature = JOLLY
+Pokemon = VILEPLUME,50
+    Item = TELLURICSEED
+    Moves = SLUDGE,MOONLIGHT,MEGADRAIN,GRASSYTERRAIN
+    AbilityIndex = 1
+    Nature = MODEST
+Pokemon = MINIOR,50
+    Item = WACANBERRY
+    Moves = ANCIENTPOWER,SWIFT,CONFUSERAY,COSMICPOWER
+    AbilityIndex = 0
+    Nature = TIMID
+Pokemon = DODRIO,50
+    Item = NORMALGEM
+    Moves = QUICKATTACK,PLUCK,SWORDSDANCE,DOUBLEHIT
+    AbilityIndex = 1
+    Nature = LONELY
+Pokemon = DRAGONITE,50
+    Item = YACHEBERRY
+    Moves = FIREPUNCH,WINGATTACK,SLAM,DRAGONTAIL
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = CLAYDOL,50
+    Item = ROCKGEM
+    Moves = PSYBEAM,IMPRISON,ANCIENTPOWER,RAPIDSPIN
+    AbilityIndex = 0
+    Nature = MODEST
+#-------------------------------
+[METEOR_Taka,Taka,1]
+Pokemon = CHATOT,50
+    Item = FLYINGGEM
+    Moves = CHATTER,SING,TAUNT,HYPERVOICE
+    AbilityIndex = 0
+    Nature = TIMID
+Pokemon = PARASECT,50
+    Item = METRONOME
+    Moves = SPORE,FURYCUTTER,SLASH,ABSORB
+    AbilityIndex = 1
+    Nature = ADAMANT
+Pokemon = RAPIDASH,50
+    Item = LUMBERRY
+    Moves = PSYCHOCUT,AGILITY,QUICKATTACK,MORNINGSUN
+    AbilityIndex = 1
+    Nature = ADAMANT
+    Form = 1
+Pokemon = HONCHKROW,50
+    Item = KINGSROCK
+    Moves = WINGATTACK,ASTONISH,PURSUIT,MIRRORMOVE
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = GLISCOR,50
+    Item = YACHEBERRY
+    Moves = FIREFANG,POISONJAB,SANDATTACK,QUICKATTACK
+    AbilityIndex = 0
+    Nature = IMPISH
+Pokemon = KLEFKI,50
+    Item = SITRUSBERRY
+    Moves = DRAININGKISS,METALSOUND,IMPRISON,TACKLE
+    AbilityIndex = 1
+    Nature = GENTLE
+#-------------------------------
+[RIVAL_Claudia,Claudia,1]
+Pokemon = GOTHITELLE,50
+    Item = ROCKYHELMET
+    Moves = FUTURESIGHT,FAKETEARS,PSYSHOCK,HYPNOSIS
+    AbilityIndex = 1
+    Nature = MODEST
+    Shiny = yes
+Pokemon = LUCARIO,50
+    Item = AIRBALLOON
+    Moves = FORCEPALM,HELPINGHAND,COPYCAT,LIFEDEW
+    AbilityIndex = 1
+    Nature = IMPISH
+Pokemon = MILOTIC,50
+    Item = WISEGLASSES
+    Moves = WATERPULSE,RECOVER,DISARMINGVOICE,TWISTER
+    AbilityIndex = 1
+    Nature = TIMID
+Pokemon = PURUGLY,50
+    Item = NORMALGEM
+    Moves = FAKEOUT,BODYSLAM,CHARM,FEINTATTACK
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = DRAKLOAK,50
+    Item = EVIOLITE
+    Moves = DRAGONPULSE,UTURN,DOUBLEHIT,ASTONISH
+    AbilityIndex = 0
+    Nature = HASTY
+Pokemon = MAWILE,50
+    Item = SITRUSBERRY
+    Moves = SUCKERPUNCH,IRONDEFENSE,FAIRYWIND,BITE
+    AbilityIndex = 1
+    Nature = ADAMANT
+#-------------------------------
+[LEADER_Burgh,Burgh,1]
+Pokemon = LEAVANNY,50
+    Item = COBABERRY
+    Moves = LEAFBLADE,STRUGGLEBUG,STRINGSHOT,AIRSLASH
+    AbilityIndex = 0
+    Nature = NAIVE
+Pokemon = MUSHARNA,50
+    Item = MAGICALSEED
+    Moves = PSYCHICTERRAIN,CALMMIND,HYPNOSIS,DREAMEATER
+    AbilityIndex = 1
+    Nature = BOLD
+Pokemon = SWAMPERT,50
+    Item = RINDOBERRY
+    Moves = WATERPULSE,STOMPINGTANTRUM,BIDE,ICEPUNCH
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = VESPIQUEN,50
+    Item = CHARTIBERRY
+    Moves = BUGBITE,WINGATTACK,SWAGGER,CONFUSERAY
+    AbilityIndex = 1
+    Nature = CAREFUL
+Pokemon = DURANT,50
+    Item = OCCABERRY
+    Moves = FURYCUTTER,DIG,METALCLAW,CRUNCH
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = SCOLIPEDE,50
+    Item = SITRUSBERRY
+    Moves = POISONTAIL,STEAMROLLER,TAKEDOWN,ROLLOUT
+    AbilityIndex = 1
+    Nature = ADAMANT
+#-------------------------------
+[LEADER_Corey,Corey,1]
+Pokemon = LEAVANNY,50
+    Item = COBABERRY
+    Moves = LEAFBLADE,STRUGGLEBUG,STRINGSHOT,AIRSLASH
+    AbilityIndex = 0
+    Nature = NAIVE
+Pokemon = MUSHARNA,50
+    Item = MAGICALSEED
+    Moves = PSYCHICTERRAIN,CALMMIND,HYPNOSIS,DREAMEATER
+    AbilityIndex = 1
+    Nature = BOLD
+Pokemon = SWAMPERT,50
+    Item = RINDOBERRY
+    Moves = WATERPULSE,STOMPINGTANTRUM,BIDE,ICEPUNCH
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = VESPIQUEN,50
+    Item = CHARTIBERRY
+    Moves = BUGBITE,WINGATTACK,SWAGGER,CONFUSERAY
+    AbilityIndex = 1
+    Nature = CAREFUL
+Pokemon = DURANT,50
+    Item = OCCABERRY
+    Moves = FURYCUTTER,DIG,METALCLAW,CRUNCH
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = SCOLIPEDE,50
+    Item = SITRUSBERRY
+    Moves = POISONTAIL,STEAMROLLER,TAKEDOWN,ROLLOUT
+    AbilityIndex = 1
+    Nature = ADAMANT
+#-------------------------------
+[TRAINER_Dawn,Dawn,1]
+Pokemon = LEAVANNY,50
+    Item = COBABERRY
+    Moves = LEAFBLADE,STRUGGLEBUG,STRINGSHOT,AIRSLASH
+    AbilityIndex = 0
+    Nature = NAIVE
+Pokemon = MUSHARNA,50
+    Item = MAGICALSEED
+    Moves = PSYCHICTERRAIN,CALMMIND,HYPNOSIS,DREAMEATER
+    AbilityIndex = 1
+    Nature = BOLD
+Pokemon = SWAMPERT,50
+    Item = RINDOBERRY
+    Moves = WATERPULSE,STOMPINGTANTRUM,BIDE,ICEPUNCH
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = VESPIQUEN,50
+    Item = CHARTIBERRY
+    Moves = BUGBITE,WINGATTACK,SWAGGER,CONFUSERAY
+    AbilityIndex = 1
+    Nature = CAREFUL
+Pokemon = DURANT,50
+    Item = OCCABERRY
+    Moves = FURYCUTTER,DIG,METALCLAW,CRUNCH
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = SCOLIPEDE,50
+    Item = SITRUSBERRY
+    Moves = POISONTAIL,STEAMROLLER,TAKEDOWN,ROLLOUT
+    AbilityIndex = 1
+    Nature = ADAMANT
+#-------------------------------
+[CHAMPION_Blue,Blue,1]
+Pokemon = LEAVANNY,50
+    Item = COBABERRY
+    Moves = LEAFBLADE,STRUGGLEBUG,STRINGSHOT,AIRSLASH
+    AbilityIndex = 0
+    Nature = NAIVE
+Pokemon = MUSHARNA,50
+    Item = MAGICALSEED
+    Moves = PSYCHICTERRAIN,CALMMIND,HYPNOSIS,DREAMEATER
+    AbilityIndex = 1
+    Nature = BOLD
+Pokemon = SWAMPERT,50
+    Item = RINDOBERRY
+    Moves = WATERPULSE,STOMPINGTANTRUM,BIDE,ICEPUNCH
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = VESPIQUEN,50
+    Item = CHARTIBERRY
+    Moves = BUGBITE,WINGATTACK,SWAGGER,CONFUSERAY
+    AbilityIndex = 1
+    Nature = CAREFUL
+Pokemon = DURANT,50
+    Item = OCCABERRY
+    Moves = FURYCUTTER,DIG,METALCLAW,CRUNCH
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = SCOLIPEDE,50
+    Item = SITRUSBERRY
+    Moves = POISONTAIL,STEAMROLLER,TAKEDOWN,ROLLOUT
+    AbilityIndex = 1
+    Nature = ADAMANT
+#-------------------------------
+[TRAINER_Fuji,Fuji,1]
+Pokemon = LEAVANNY,50
+    Item = COBABERRY
+    Moves = LEAFBLADE,STRUGGLEBUG,STRINGSHOT,AIRSLASH
+    AbilityIndex = 0
+    Nature = NAIVE
+Pokemon = MUSHARNA,50
+    Item = MAGICALSEED
+    Moves = PSYCHICTERRAIN,CALMMIND,HYPNOSIS,DREAMEATER
+    AbilityIndex = 1
+    Nature = BOLD
+Pokemon = SWAMPERT,50
+    Item = RINDOBERRY
+    Moves = WATERPULSE,STOMPINGTANTRUM,BIDE,ICEPUNCH
+    AbilityIndex = 0
+    Nature = ADAMANT
+Pokemon = VESPIQUEN,50
+    Item = CHARTIBERRY
+    Moves = BUGBITE,WINGATTACK,SWAGGER,CONFUSERAY
+    AbilityIndex = 1
+    Nature = CAREFUL
+Pokemon = DURANT,50
+    Item = OCCABERRY
+    Moves = FURYCUTTER,DIG,METALCLAW,CRUNCH
+    AbilityIndex = 1
+    Nature = JOLLY
+Pokemon = SCOLIPEDE,50
+    Item = SITRUSBERRY
+    Moves = POISONTAIL,STEAMROLLER,TAKEDOWN,ROLLOUT
+    AbilityIndex = 1
+    Nature = ADAMANT
+#-------------------------------
+#-------------------------------
+# VENGEANCE
+#-------------------------------
+#-------------------------------
+# Goldsong Village
+#-------------------------------
+[RIVAL_Aria,Aria]
+Pokemon = POPPLIO,5
+    Moves = POUND,GROWL
+    Shiny = yes
+    AbilityIndex = 3
+#-------------------------------
+[RICHBOY,Winston]
+Pokemon = PATRAT,2
+Pokemon = DUCKLETT,2
+Pokemon = SMOOCHUM,3
+#-------------------------------
+[LASS,Yasemin]
+Pokemon = CHEWTLE,3
+Pokemon = DRIFLOON,3
+#-------------------------------
+[BUGCATCHER,Stephan]
+Pokemon = WIMPOD,3
+Pokemon = VENIPEDE,3
+Pokemon = BLIPBUG,4
+#-------------------------------
+[OFFICEWORKER_F,Trisha]
+Pokemon = DIGLETT,5
+Pokemon = MINCCINO,7
+#-------------------------------
+[OFFICER,Hank]
+Pokemon = YAMPER,11
+    Moves = NUZZLE,FLAMECHARGE,HOWL,BITE
+    AbilityIndex = 2
+Pokemon = CRABRAWLER,9
+    Moves = BUBBLE,ROCKSMASH,ENDEAVOR,AMNESIA
+    AbilityIndex = 3
+#-------------------------------
+[ROCKER,Fernando]
+Pokemon = PANSEAR,6
+    Moves = SCRATCH,PLAYNICE,LEER,FIRESPIN
+    AbilityIndex = 1
+Pokemon = PANPOUR,6
+    Moves = SCRATCH,PLAYNICE,LEER,WATERPULSE
+    AbilityIndex = 2
+Pokemon = MANKEY,7
+    Moves = LOWKICK,BEATUP,FOCUSENERGY,LEER
+    AbilityIndex = 2
+Pokemon = AIPOM,7
+    Moves = SCRATCH,TAILWHIP,SANDATTACK,BEATUP
+    AbilityIndex = 3
+Pokemon = PASSIMIAN,8
+    Moves = TACKLE,LEER,ROCKSMASH,FEINT
+    AbilityIndex = 1
+Pokemon = ORANGURU,8
+    Moves = AFTERYOU,TAUNT,CONFUSION,YAWN
+    AbilityIndex = 3
+#-------------------------------
+[SCIENTIST,Charles]
+Pokemon = HATENNA,12
+Pokemon = GRUBBIN,12
+Pokemon = KLINK,13
+#-------------------------------
+[POKEFAN_F,Agnes]
+Pokemon = UMBREON,4
+#-------------------------------
+# Route 1 - North
+#-------------------------------
+[HARLEQUIN,Dieuwert]
+Pokemon = MIMEJR,6
+#-------------------------------
+[HORDE,Honey Horde]
+Pokemon = VOLBEAT,4
+Pokemon = ILLUMISE,4
+Pokemon = COMBEE,5
+Pokemon = COMBEE,5
+Pokemon = CUTIEFLY,6
+Pokemon = CUTIEFLY,6
+#-------------------------------
+[SCHOOLKID_M,Billy]
+Pokemon = POLIWAG,5
+Pokemon = FARFETCHD,7
+    Form = 1
+#-------------------------------
+[NINJABOY,Isidoros]
+Pokemon = DODUO,8
+Pokemon = BONSLY,9
+#-------------------------------
+[AROMALADY,Petunia]
+Pokemon = FOMANTIS,8
+Pokemon = COMBEE,7
+Pokemon = JIGGLYPUFF,9
+#-------------------------------
+[COLLECTOR,Gul]
+Pokemon = MARILL,3
+Pokemon = DELIBIRD,5
+#-------------------------------
+[YOUNGSTER,Jason]
+Pokemon = CASCOON,11
+Pokemon = SALANDIT,11
+Pokemon = ROGGENROLA,12
+#-------------------------------
+# Route 1 - South
+#-------------------------------
+[RIVAL_Aria,Aria,2]
+Pokemon = CHINGLING,14
+    Moves = CONFUSION,ASTONISH,HYPNOSIS,COSMICPOWER
+    AbilityIndex = 3
+Pokemon = POPPLIO,15
+    Moves = WATERGUN,ICYWIND,DISARMINGVOICE,BABYDOLLEYES
+    AbilityIndex = 3
+    Shiny = yes
+#-------------------------------
+[RIVAL_Aria,Aria,3]
+Pokemon = SMOOCHUM,14
+    Moves = CONFUSION,FAKEOUT,WISH,POWDERSNOW
+    AbilityIndex = 3
+Pokemon = POPPLIO,15
+    Moves = WATERGUN,ICYWIND,DISARMINGVOICE,BABYDOLLEYES
+    AbilityIndex = 3
+    Shiny = yes
+#-------------------------------
+[HORDE,Forest Horde]
+Pokemon = PHANTUMP,13
+Pokemon = MORELULL,13
+Pokemon = PHANTUMP,13
+Pokemon = IMPIDIMP,13
+#-------------------------------
+[PRESCHOOLER_F,Hannah]
+Pokemon = SOLOSIS,9
+Pokemon = MARILL,9
+Pokemon = GASTLY,11
+Pokemon = FERROSEED,11
+#-------------------------------
+[PRESCHOOLER_M,Jojo]
+Pokemon = SPHEAL,9
+Pokemon = ROLYCOLY,9
+Pokemon = KOFFING,11
+Pokemon = VOLTORB,11
+#-------------------------------
+[FAIRYTALEGIRL,Vera]
+Pokemon = JIGGLYPUFF,12
+Pokemon = DEDENNE,13
+#-------------------------------
+[HEXMANIAC,Felicia]
+Pokemon = DREEPY,12
+Pokemon = SLOWPOKE,14
+    Form = 1
+#-------------------------------
+[CRUSHGIRL,Njinga]
+Pokemon = TRAPINCH,13
+Pokemon = ARROKUDA,13
+Pokemon = MEDITITE,15
+#-------------------------------
+[FISHERMAN,Theodor]
+Pokemon = MAGIKARP,17
+Pokemon = FINNEON,12
+Pokemon = GOLDEEN,12
+Pokemon = BARBOACH,13
+#-------------------------------
+[BLACKBELT,Anton]
+Pokemon = RATTATA,13
+    Form = 1
+Pokemon = ARON,13
+Pokemon = TYROGUE,15
+#-------------------------------
+[ENGINEER,Braxton]
+Pokemon = MAGNEMITE,13
+Pokemon = DEWOTT,17
+#-------------------------------
+[SUPERNERD,Sheldon]
+Pokemon = STANTLER,15
+#-------------------------------
+# Darkleaf Town
+#-------------------------------
+[BIRDKEEPER,Roy]
+Pokemon = PIDGEY,20
+#-------------------------------
+[GUITARIST_F,Tamara]
+Pokemon = VENIPEDE,13
+Pokemon = BEEDRILL,14
+#-------------------------------
+[SCHOOLKID_M,Johannes]
+Pokemon = SWIRLIX,11
+Pokemon = PURRLOIN,11
+Pokemon = AMAURA,13
+#-------------------------------
+# Darkleaf Woods
+#-------------------------------
+[LEADER_Skyler,Skyler]
+Pokemon = CHATOT,20
+    Moves = HYPERVOICE,CHATTER,TAUNT,SING
+    Shiny = yes
+    AbilityIndex = 0
+Pokemon = NATU,20
+    Moves = FEATHERDANCE,PECK,NIGHTSHADE,ROOST
+    AbilityIndex = 0
+#-------------------------------
+[LEADER_Anthony,Anthony]
+Pokemon = HERACROSS,20
+    Moves = NIGHTSLASH,ARMTHRUST,AERIALACE,BULLETSEED
+    Shiny = yes
+    AbilityIndex = 2
+Pokemon = SURSKIT,20
+    Moves = BUBBLEBEAM,FELLSTINGER,QUICKATTACK,SWEETSCENT
+    AbilityIndex = 1
+#-------------------------------
+[RIVAL_Aria,Aria,4]
+Pokemon = BRIONNE,20
+    Moves = ICYWIND,AQUAJET,PERISHSONG,DISARMINGVOICE
+    Shiny = yes
+    AbilityIndex = 1
+Pokemon = CHINGLING,20
+    Moves = ASTONISH,CONFUSION,YAWN,FUTURESIGHT
+    AbilityIndex = 3
+#-------------------------------
+[RIVAL_Aria,Aria,5]
+Pokemon = BRIONNE,20
+    Moves = ICYWIND,AQUAJET,PERISHSONG,DISARMINGVOICE
+    Shiny = yes
+    AbilityIndex = 1
+Pokemon = SMOOCHUM,20
+    Moves = POWDERSNOW,CONFUSION,NASTYPLOT,SING
+    AbilityIndex = 3
+#-------------------------------
+[CAMPER,Abraham]
+Pokemon = HIPPOPOTAS,14
+Pokemon = LITTEN,14
+Pokemon = NIDORINA,16
+#-------------------------------
+[PICNICKER,Arwa]
+Pokemon = SCATTERBUG,14
+Pokemon = MAGBY,14
+Pokemon = YANMA,14
+Pokemon = LUVDISC,16
+#-------------------------------
+[HORDE,Angry Horde]
+Pokemon = WORMADAM,20
+    Form = 0
+Pokemon = NOCTOWL,20
+Pokemon = VIVILLON,23
+Pokemon = GRANBULL,23
+#-------------------------------
+[HORDE,Angry Horde,1]
+Pokemon = MOTHIM,20
+Pokemon = RATICATE,20
+Pokemon = TREVENANT,23
+Pokemon = ARIADOS,23
+#-------------------------------
+# Darkleaf Gym
+#-------------------------------
+[LEADER_Anthony,Anthony,2]
+Pokemon = HERACROSS,20
+    Moves = NIGHTSLASH,ARMTHRUST,AERIALACE,BULLETSEED
+    Shiny = yes
+    AbilityIndex = 2
+Pokemon = SURSKIT,20
+    Moves = BUBBLEBEAM,FELLSTINGER,QUICKATTACK,SWEETSCENT
+    AbilityIndex = 1
