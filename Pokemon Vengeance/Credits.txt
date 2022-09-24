@@ -1,0 +1,318 @@
+First, thank you to The Pokemon Company for the idea of Pokemon
+and the inspiration for all Pokemon fan-made games. Also,
+thanks to the Pokemon Essentials Team as well as Maruno for
+making the development of this game and many others possible.
+The creation of this game through RPG Maker XP would have been
+nearly impossible without your help. Also, a huge thanks to the
+Pokemon Reborn and Rejuvenation teams for the main inspiration
+for these games as well as the idea of Field Effects. This game
+would not have been made without all of these wonderful people.
+Thank you and enjoy.
+===============================================================
+Please let me know if I missed anyone. I was not very organized 
+with credits, so I may have included people that I ended up not 
+using anything from in the end. You can contact me on pokecommunity
+as the user "silverlime"
+
+Gen 7 Data:
+- Zeak6464
+- TapuFini
+- SpartaLazor
+- leparagon
+- M3rein
+- BlackOutG5
+- Rune
+- Rigbycwts
+- Rot8er_ConeX
+- James Davy
+- Luka S.J.
+- silverlime
+
+Mega Evolution Cries:
+- AurumDeluxe
+
+Battle Sprites:
+- veekun
+- Amethyst
+- Jan
+- Zumi
+- Bazaro
+- Koyo
+- Smeargletail
+- Alex
+- Noscium
+- Leparagon
+- N-kin
+- fishbowlsoul90
+- princess-phoenix
+- DatLopunnyTho
+- Conyjams 
+- kaji atsu 
+- The cynical poet
+- LuigiPlayer
+- Falgaia of the Smogon S/M sprite project
+- Pikafan2000
+- Lord-Myre
+- ShinyLyni
+- AutumnSpire
+- Drawnamu
+- Duncapham
+- KalerioDion
+- TheAetherPlayer
+- Crocovyle
+- G.E.Z.
+- KingOfThe-X-Roads
+- Spook
+- Cynda
+- Involuntary Twitch
+- mjco
+- Z-nogyroP
+- PumpkinPastel
+- RadicalCharizard
+- EventHorizontal
+- zlolxd
+- Khrona
+- Andracass
+- Zerokid
+- princessofmusic
+
+Trainer Battle Sprites:
+- Kyle-Dove
+- Gnomowladny
+- MegamanOmega
+- geno2925
+- PhoenixOfLight92
+- Drawnamu
+- JIKARORIGINAL
+- Zender1752
+- Beliot419
+- IceJkai
+- zlolxd
+- Wiispeed03
+- Somersault
+- silverlime
+- Kimba616
+- PizzaSun
+- tebited15
+- TintjeMadelintje101
+- PKMNTrainerSpriterC
+- Tsunfished
+- Neo-Spriteman
+- Vanilla Sunshine
+- PurpleZaffre
+- Maicerochico
+- AtomicReactor
+- Amethyst
+- Hyo
+- MechanicalApe464
+- Muzyun
+- Brumirage
+- Poffin Case
+- PixelMister
+- RBRNNova
+- L-mon
+- Similation
+- Pokemon Reborn Team
+- Pokemon Rejuvenation Team
+- aveontrainer
+
+Trainer Overworld Sprites:
+- Dragoon
+- Dazz
+- izzyvicious
+- PizzaSun
+- PurpleZaffre
+- DevDuelist
+- silverlime
+- Kyle-Dove
+- MegamanOmega
+- Sindorman
+- Kimba616
+- N-Sora-96
+- Brawlzilla
+- Mademoiselle
+- ricegate
+- PoklustCompany
+- Hyo
+- Rekiem
+- iiPudd1ng
+- WolfPP/Wolfgang62
+- Boonzeet
+- KalerioDion
+- Venom
+- Aqua
+- Somersault
+- TinSil
+- REDBOY265
+
+Music:
+- GlitchxCity
+- Lugigigas
+- Zame
+- Zumi
+- 2DTV
+- Stone McKnuckle
+- FL.Remix
+- Bliitzit
+- Kunning Fox
+- Vetrom
+
+Tilesets:
+- Pokemon Essentials
+- Crazyninjaguy
+- Magiscarf
+- Heckelgrande
+- Pokemon Dawn
+- PrincesPhoenix
+- PkmnAlexandrite
+- Alucus
+- Kyle Dove
+- Dewitty
+- CNC
+- zetavares852
+- The English Kiwi
+- LotusKing
+- JesusCarrasco
+- Kyle dove
+- Heavy-Metal-Lover
+- xDinky
+- Newtiteuf
+- Frma96
+- Hydrargirium
+- Poison-Master
+- Thedeadheroalistair
+- Shutwig
+- Asdsimone
+- Xxdevil
+- Steinnaples
+- Hek-el-grande
+- sylver1984
+- NikNak93
+- TeaAddiction
+- Cuddlethefatcat
+- Gigatom
+- The-Red-eX
+- ChaoticCherryCake
+- EVoLiNa
+- Phyromatical
+- Clara-WaH
+- ChaoticCherryCake
+- silverlime
+
+Animations:
+- Pokemon Essentials Team
+- Pokepoke12arceus
+- Amethyst and Pokemon Reborn Team
+- Mde2001
+- Smeargletail
+- Vulpes Draconis
+- andracass
+
+Other Art:
+- Jesse M
+- Deepzekrom
+- Midnitez-REMIX
+- Cecihoney
+- KaysCollapse
+- Pikachumazzinga
+- SageDeoxys
+- princess-pheonix
+- LunarDusk
+- Sparta
+- Nephae
+- PoLlOrOn
+- tahayarkhan
+- TheRealMulderman
+- Pokemon Reborn Team
+- Pokemon Rejuvenation Team
+- Akuma-Tsubasa
+- AceDaniaMMX
+- zlolxd
+- Bunni89
+- Slaqueen
+- juanito316ss
+- Neirn
+- PurplePablo
+- VictorV111
+- Levaine
+- redtulho
+- PKMNTrainerSpriterC
+- sylv
+
+Scripting:
+- Pokemon Essentials Team
+- Amethyst and Reborn Team
+- Marcello
+- Jan and Rejuvenation Team
+- MR. GELA
+- WolfPP
+- FL
+- Kurotsune
+- Golisopod User
+- HM100
+- Marin
+- CaysCollapse
+- silverlime
+- FIRELIGHT TECHNOLOGIES PTY LTD.
+- Enterbrain
+- Nuri Yuri
+- GiraPrimal
+- Boonzeet
+- Mega Mewthree
+- Vendily
+- TheToxic
+- Aioross
+- MFilice
+- lolface
+- KyureJL
+- DarrylBD99
+- Turn20Negate
+- TheKandinavian
+- ErwanBeurier
+- StCooler
+- Lucidious89
+
+PBS:
+- Pokemon Essentials Team
+- HM100
+- Golisopod User
+- Zerokid
+- TheToxic
+- KyureJL
+- ErwanBeurier
+- silverlime
+
+Region Map:
+- Karthik_
+- silverlime
+
+Modular Title Screen:
+- Luka S.J.
+
+New Mega Evolution Sprites:
+- Smiley-Fakemon
+- wulfanator
+- Dewdneym
+- Oth
+- SilentGPanda
+- Oroshibu
+- Chain-Of-Ashes
+- Ferrari94
+- Momo-Fakemon
+- BetaX64
+- Sonny-The-Cheetah
+- Finemanederby
+- hp0119
+- Dragonith
+- JaegerLucciano23
+- Tomycase
+- LuxLuxray
+- memanguy
+- Phatmon
+- Phoenix99125
+- Vlamingo
+
+Cries:
+- Rhyden
+- Marin
+- Zeak6464
