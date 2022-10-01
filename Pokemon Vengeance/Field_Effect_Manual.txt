@@ -4165,6 +4165,7 @@ Field Effect Listing
 *	Natural Gift additionally inflicts a random status condition on the target
 *	Hex additionally deals increased damage to Pokemon with the Mark of the Devil
 *	Nature's Madness instead deals 2/3 max HP damage
+*	Night Shade's damage increases x1.5
 :::ITEM MODIFIERS:::
 *	Magical Seed raises Sp. Atk and Sp. Def, inflicts a random status condition, and applies Ingrain to the holder
 *	The following items instead sharply raise a random stat upon activation:
