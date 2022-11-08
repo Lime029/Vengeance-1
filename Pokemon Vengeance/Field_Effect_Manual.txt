@@ -98,6 +98,7 @@ against Rock and Fairy Pokemon
 	Sucker Punch		Crabhammer		Wood Hammer		Dragon Hammer
 - Mind Blown is additionally considered a bomb move
 - Roar of Time is additionally considered a sound move
+- Pokemon always succeed in fleeing when attempting to do so
 
 #==============================================================================#
 Field Effects:
