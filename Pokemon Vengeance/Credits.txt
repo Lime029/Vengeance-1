@@ -115,6 +115,7 @@ Trainer Battle Sprites:
 - Pokemon Reborn Team
 - Pokemon Rejuvenation Team
 - aveontrainer
+- Horo
 
 Trainer Overworld Sprites:
 - Dragoon
@@ -238,6 +239,8 @@ Other Art:
 - redtulho
 - PKMNTrainerSpriterC
 - sylv
+- Deorro
+- Saving Raven
 
 Scripting:
 - Pokemon Essentials Team
@@ -271,6 +274,11 @@ Scripting:
 - ErwanBeurier
 - StCooler
 - Lucidious89
+- Super Dedenne
+- DL Kurosh
+- mej71
+- Tastyredtomato
+- bo4p5687
 
 PBS:
 - Pokemon Essentials Team
