@@ -737,7 +737,7 @@ Field Effect Listing
 *	Maraca Movement no longer sets the priority of dance moves to -1
 *	Scarecrow additionally copies Intimidate's effect
 :::MOVE MODIFIERS:::
-*	Physical Fighting moves, punching moves, and these moves become High Striker attacks, which have deal a random increment of damage between x0.5 and x3
+*	Physical Fighting moves, punching moves, and these moves become High Striker attacks, which deal a random increment of damage between x0.5 and x3
 		Strength		Wood Hammer		Dual Chop		Heat Crash		Sky Drop
 		Icicle Crash		Body Slam		Stomp			Giga Impact		Brutal Swing
 		Pound			Smack Down		Iron Tail		Crabhammer		Continental Crush
